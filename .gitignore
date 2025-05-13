@@ -1,0 +1,31 @@
+# Terraform directories
+.terraform/
+
+# Google Cloud service account key
+key.json
+
+# Environment files and other secrets
+*.env
+*.key
+*.pem
+secrets.*
+
+# Terraform state (optional if using remote backend)
+*.tfstate
+*.tfstate.backup
+
+# Python virtual environments (if applicable)
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# VS Code settings (optional)
+.vscode/
+
+# Node modules (if using Node.js)
+node_modules/
+
+# macOS/Windows OS files
+.DS_Store
+Thumbs.db
