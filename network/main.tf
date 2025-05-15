@@ -18,3 +18,8 @@ resource "google_compute_subnetwork" "private_subnet" {
   region        = "us-central1"
   network       = google_compute_network.linux_vpc_network.id
   }
+
+# Output for the network ID
+output "network_id" {
+  value = google_compute_network.linux_vpc_network.id
+}
