@@ -18,3 +18,6 @@ Through the main.tf file in the network folder, I deployed a Virtual Private Clo
 
 ### Step 2
 Next step, Three Virtual Machines (vm-router, vm-client1, vm-client2) will be created in the appropriate subnets.
+
+### Step 3
+Coding of the startup scripts.
